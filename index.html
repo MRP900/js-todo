@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>JSTodo</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <h1 id="title">Todo</h1>
+
+        <div id="todo-entry">
+            <label id="todoLabel">Enter a todo: </label>
+            <input id="todo-text" type="text"><br>
+            <div>
+                <input id="date" type="date">
+                <input id="time" type="time">
+            </div>
+            
+            <input type="button" id="add_btn" value="Add"><br>
+        </div>
+
+        <div id="todo-container">
+            <ul id="todos">
+                <li>First List Element</li>
+            </ul>
+
+        </div>
+        
+        <script src="main.js" async defer></script>
+    </body>
+</html>
