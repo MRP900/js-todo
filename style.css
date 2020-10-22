@@ -51,6 +51,7 @@ li {
 .todo {
     margin: .5em auto;
     width: 90%;
+    max-width: 350px;
     /* border: 1px solid black; */
     background-color: blue;
     color: white;
