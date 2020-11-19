@@ -8,6 +8,7 @@ window.onload = ()=> {
        
         var todos = document.getElementById("todos");
 
+        // Debugging
         console.log(todo.value);
         console.log(date.value);
         console.log(time.value);

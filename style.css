@@ -35,7 +35,7 @@ body {
     margin-bottom: .3em;   
 }
 
-#date #time {
+#date, #time {
     max-width: 142px;
 }
 
@@ -91,6 +91,11 @@ button {
     background-color: rgb(8, 117, 8);
     padding: .35em .45em;
     color: white;
+    border: none;
+}
+
+#add_btn:hover {
+    border: solid black 2px;
 }
 
      
